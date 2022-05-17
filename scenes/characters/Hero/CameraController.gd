@@ -18,4 +18,4 @@ func _input(event):
 	if event is InputEventMouseMotion:
 		model.hero.rotation_degrees.y -= event.relative.x * model.mouse_sensitivity
 		model.pivot.rotation_degrees.x -= event.relative.y * model.mouse_sensitivity
-		model.pivot.rotation_degrees.x = clamp(model.pivot.rotation_degrees.x, model.min_pitch, model.max_pitch)
+		model.rotation_degrees.x = clamp(model.pivot.rotation_degrees.x, model.min_pitch, model.max_pitch)
