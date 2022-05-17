@@ -116,7 +116,7 @@ shadow_enabled = true
 shadow_bias = 0.01
 shadow_contact = 0.3
 
-[node name="Player" parent="." instance=ExtResource( 72 )]
+[node name="Godot" parent="." instance=ExtResource( 72 )]
 transform = Transform( -0.998319, 0, -0.0579649, 0, 1, 0, 0.0579649, 0, -0.998319, 0, 1.9663, 12.322 )
 
 [node name="QodotMap" type="Spatial" parent="."]
