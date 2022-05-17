@@ -25,11 +25,9 @@ script = ExtResource( 3 )
 __meta__ = {
 "_editor_description_": ""
 }
-accel = 20.0
-speed = 10.0
-air_accel = 3.0
-jump_power = 1500.0
-max_fall_vel = 5
+speed = 6.5
+jump_power = 850.0
+max_fall_vel = 2
 
 [node name="HeroController" type="Node" parent="."]
 script = ExtResource( 4 )
