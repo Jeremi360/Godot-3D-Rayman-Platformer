@@ -27,7 +27,7 @@ _global_script_classes=[ {
 "base": "KinematicBody",
 "class": "PlatformCharacterModel",
 "language": "GDScript",
-"path": "res://code/controllers/PlatformCharacterModel.gd"
+"path": "res://code/models/PlatformCharacterModel.gd"
 }, {
 "base": "Node",
 "class": "PlatformCharacterMoveController",
@@ -59,7 +59,7 @@ gdscript/warnings/unused_argument=false
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/gd-blender-3d-shortcuts/plugin.cfg" )
+enabled=PoolStringArray(  )
 
 [input]
 
