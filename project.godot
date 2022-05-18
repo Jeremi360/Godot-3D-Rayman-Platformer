@@ -12,12 +12,12 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "CameraController",
 "language": "GDScript",
-"path": "res://scenes/characters/Hero/CameraController.gd"
+"path": "res://code/controllers/CameraController.gd"
 }, {
 "base": "Camera",
 "class": "CameraModel",
 "language": "GDScript",
-"path": "res://scenes/characters/Hero/CameraModel.gd"
+"path": "res://code/models/CameraModel.gd"
 }, {
 "base": "PlatformCharacterModel",
 "class": "HeroModel",
