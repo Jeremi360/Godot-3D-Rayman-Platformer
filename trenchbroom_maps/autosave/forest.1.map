@@ -1,0 +1,16 @@
+// Game: OpenMan
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/Hand Painted Pack by Drummyfish"
+// brush 0
+{
+( -512 768 128 ) ( -512 -896 128 ) ( -512 -896 0 ) "Hand Painted Pack by Drummyfish/default_rainforest_litter" 0 0 0 1 1
+( -512 -896 128 ) ( 640 -896 128 ) ( 640 -896 0 ) "Hand Painted Pack by Drummyfish/default_rainforest_litter" 0 0 0 1 1
+( 640 -896 0 ) ( 640 768 0 ) ( -512 768 0 ) "Hand Painted Pack by Drummyfish/default_rainforest_litter" 0 0 0 1 1
+( -512 768 128 ) ( 640 768 128 ) ( 640 -896 128 ) "Hand Painted Pack by Drummyfish/default_rainforest_litter" 0 0 0 1 1
+( 640 768 0 ) ( 640 768 128 ) ( -512 768 128 ) "Hand Painted Pack by Drummyfish/default_rainforest_litter" 0 0 0 1 1
+( 640 -896 128 ) ( 640 768 128 ) ( 640 768 0 ) "Hand Painted Pack by Drummyfish/default_rainforest_litter" 0 0 0 1 1
+}
+}

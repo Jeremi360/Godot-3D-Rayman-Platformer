@@ -1,0 +1,42 @@
+// Game: OpenMan
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/HandPainted"
+// brush 0
+{
+( -512 768 128 ) ( -512 -896 128 ) ( -512 -896 0 ) HandPainted/default_grass 0 0 0 1 1
+( -512 -896 128 ) ( 640 -896 128 ) ( 640 -896 0 ) HandPainted/default_grass 0 0 0 1 1
+( 640 -896 0 ) ( 640 768 0 ) ( -512 768 0 ) HandPainted/default_grass 0 0 0 1 1
+( -512 768 128 ) ( 640 768 128 ) ( 640 -896 128 ) HandPainted/default_grass 0 0 0 1 1
+( 640 768 0 ) ( 640 768 128 ) ( -512 768 128 ) HandPainted/default_grass 0 0 0 1 1
+( 640 -896 128 ) ( 640 768 128 ) ( 640 768 0 ) HandPainted/default_grass 0 0 0 1 1
+}
+// brush 1
+{
+( -512 768 256 ) ( -512 384 256 ) ( -512 384 128 ) HandPainted/default_silver_sandstone_block 0 0 0 1 1
+( -512 384 256 ) ( 256 384 256 ) ( 256 384 128 ) HandPainted/default_silver_sandstone_block 0 0 0 1 1
+( 256 384 128 ) ( 256 768 128 ) ( -512 768 128 ) HandPainted/default_silver_sandstone_block 0 0 0 1 1
+( -512 768 256 ) ( 256 768 256 ) ( 256 384 256 ) HandPainted/default_silver_sandstone_block 0 0 0 1 1
+( 256 768 128 ) ( 256 768 256 ) ( -512 768 256 ) HandPainted/default_silver_sandstone_block 0 0 0 1 1
+( 256 384 256 ) ( 256 768 256 ) ( 256 768 128 ) HandPainted/default_silver_sandstone_block 0 0 0 1 1
+}
+// brush 2
+{
+( -256 -256 256 ) ( -256 -255 256 ) ( -256 -256 257 ) HandPainted/default_junglewood 0 0 0 1 1
+( -256 -256 256 ) ( -256 -256 257 ) ( -255 -256 256 ) HandPainted/default_junglewood 0 0 0 1 1
+( -256 -256 256 ) ( -255 -256 256 ) ( -256 -255 256 ) HandPainted/default_junglewood 0 0 0 1 1
+( 256 128 384 ) ( 256 129 384 ) ( 257 128 384 ) HandPainted/default_junglewood 0 0 0 1 1
+( 256 128 384 ) ( 257 128 384 ) ( 256 128 385 ) HandPainted/default_junglewood 0 0 0 1 1
+( 256 128 384 ) ( 256 128 385 ) ( 256 129 384 ) HandPainted/default_junglewood 0 0 0 1 1
+}
+// brush 3
+{
+( -512 384 128 ) ( -512 384 256 ) ( -512 -128 128 ) HandPainted/default_furnace_side 0 0 0 1 1
+( -512 384 256 ) ( -256 384 256 ) ( -256 -128 128 ) HandPainted/default_furnace_side 0 0 0 1 1
+( -256 -128 128 ) ( -256 384 128 ) ( -512 384 128 ) HandPainted/default_furnace_side 0 0 0 1 1
+( -256 384 128 ) ( -256 384 256 ) ( -512 384 256 ) HandPainted/default_furnace_side 0 0 0 1 1
+( -256 -128 128 ) ( -256 384 256 ) ( -256 384 128 ) HandPainted/default_furnace_side 0 0 0 1 1
+}
+}
