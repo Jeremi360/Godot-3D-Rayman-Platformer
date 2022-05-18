@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://textures/HandPainted/default_junglewood.png" type="Texture" id=1]
 [ext_resource path="res://textures/HandPainted/default_furnace_side.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://textures/HandPainted/default_silver_sandstone_block.png" type="Texture" id=4]
 [ext_resource path="res://textures/HandPainted/default_grass.png" type="Texture" id=5]
 [ext_resource path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" type="Resource" id=6]
+[ext_resource path="res://GoodLookingEnvironment.tres" type="Environment" id=7]
 [ext_resource path="res://scenes/characters/Hero/HeroBody.tscn" type="PackedScene" id=72]
 
 [sub_resource type="SpatialMaterial" id=1]
@@ -87,6 +88,7 @@ points = PoolVector3Array( 6, 4, -8, -2, 2, -8, 6, 2, -8, 6, 4, -4, -2, 2, -4, 6
 [node name="TestLevel" type="Spatial"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource( 7 )
 
 [node name="Sun" type="DirectionalLight" parent="."]
 transform = Transform( 0.707107, 0.5, -0.5, 0, 0.707107, 0.707107, 0.707107, -0.5, 0.5, 0, 6.27174, 0 )

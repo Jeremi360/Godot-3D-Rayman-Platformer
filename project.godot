@@ -10,14 +10,14 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Node",
-"class": "CameraController",
+"class": "CameraArmController",
 "language": "GDScript",
-"path": "res://code/controllers/CameraController.gd"
+"path": "res://scenes/characters/Hero/CameraArmController.gd"
 }, {
-"base": "Camera",
-"class": "CameraModel",
+"base": "SpringArm",
+"class": "CameraArmModel",
 "language": "GDScript",
-"path": "res://code/models/CameraModel.gd"
+"path": "res://scenes/characters/Hero/CameraArm.gd"
 }, {
 "base": "PlatformCharacterModel",
 "class": "HeroModel",
@@ -53,11 +53,6 @@ _global_script_classes=[ {
 "class": "PlatformCharacterModel",
 "language": "GDScript",
 "path": "res://code/models/PlatformCharacterModel.gd"
-}, {
-"base": "Node",
-"class": "PlatformCharacterMoveController",
-"language": "GDScript",
-"path": "res://code/controllers/PlatformCharacterMoveController.gd"
 }, {
 "base": "Reference",
 "class": "QodotDependencies",
@@ -200,8 +195,8 @@ _global_script_classes=[ {
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd"
 } ]
 _global_script_class_icons={
-"CameraController": "",
-"CameraModel": "",
+"CameraArmController": "",
+"CameraArmModel": "",
 "HeroModel": "",
 "LavaLayer": "",
 "LiquidLayer": "",
@@ -209,7 +204,6 @@ _global_script_class_icons={
 "PhysicsBall": "",
 "PhysicsEntity": "",
 "PlatformCharacterModel": "",
-"PlatformCharacterMoveController": "",
 "QodotDependencies": "",
 "QodotEntity": "",
 "QodotFGDBaseClass": "",

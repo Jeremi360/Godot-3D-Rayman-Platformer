@@ -23,6 +23,7 @@ func _process(_delta):
 	var j := Input.is_action_just_pressed("jump")
 	model.jumping = j and model.is_on_floor()
 
+
 func _physics_process(delta):
 	# Move the hero
 	var velocity = Funcs.get_up_velocity(model)
@@ -32,12 +33,16 @@ func _physics_process(delta):
 	if !model.is_on_floor():
 		accel = model.air_accel
 
-	if model.move_dir.length() > 0.001:
+	if model.move_dir.length() > 0.2:
 		velocity = lerp(model.velocity, model.move_dir * model.speed, delta * accel)
 
 	else:
 		# stop moving Hero if no input
 		velocity = lerp(model.velocity, Funcs.get_up_velocity(model), delta * accel)
+
+	if velocity.length() > 0.2:
+		var look_dir = Vector2(velocity.z, velocity.x)
+		model.mesh.rotation.y = look_dir.angle()
 	
 	# hero is on ground
 	if model.is_on_floor():
